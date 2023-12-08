@@ -12,7 +12,7 @@
     
 }
 
-.titulo{
+.tituloh1{
     font-size: 72px;
     font-family: var(--fonte);
     font-weight: 700;
@@ -44,18 +44,20 @@
     
 }
 
-.corte_titulo{
+.tituloh2{
     font-size: 42px;
     font-family: var(--fonte);
     font-weight: 700;
     margin-bottom: 40px;
 }
 
-.corte_subtitulo{
+.corte {margin-bottom: 40px;}
+
+.subtituloh3{
     font-size: 22px;
     font-family: var(--fonte);
     font-weight: 700;
-    margin-bottom: 40px;
+    
 }
 
 .lista{
@@ -70,7 +72,92 @@
 }
 
 
+.texto_explicativo{
+    text-align: center;
+    margin-top: 50px;
+    
+    
+}
 
+.texto_nerole{
+    text-align: center;
+    margin-top: 100px;
+}
 
+.alinhar_itens{
+    
+    grid-template-columns: 80%;
+    align-items: center;
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    
+    
+}
 
+.nerole_imagem{
+    width: 50%;
+    margin-left: 100px;
+    
+}
 
+.alinhar{
+    display: flex;
+    align-items: center;
+    
+}
+
+.organizar_lista2{
+    display: grid;
+    justify-content: center;
+
+}
+
+.lista2{
+    margin-left: 100px;
+}
+
+.container_venda{
+    display: grid;
+    justify-content: center;
+}
+
+.subtituloh4{
+    font-size: 18px;
+    font-family: var(--fonte);
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.titulo_venda{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tituloh2r{
+    font-size: 18px;
+    font-family: var(--fonte);
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.subtituloh4r{
+    font-size: 12px;
+    font-family: var(--fonte);
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.REFERENCIAS{
+    display: flex;
+}
+
+.links{
+    margin-left: 20px;
+}
