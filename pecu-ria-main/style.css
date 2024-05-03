@@ -4,6 +4,51 @@
     --fonte: open+sans;
 }
 
+body{
+    background-color: rgba(47, 79, 79, 0.8);
+}
+
+
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left: 5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:226px;
+    
+    
+  }
+  
+.busca{
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+
+  #btnBusca{
+    float:left;
+    cursor:pointer;
+    
+  }
+  
+  #divBusca img{
+    float:left;
+    width: 10%;
+    margin-left: 70px;
+    
+  }
+  
+  #divBusca{
+    border:solid 10px rgba(47, 79, 79, 0.8);
+    border-radius:10px;
+    height:37px;
+    width:400px;
+    
+  }
+
+
 
 .container_titulo{
     display: flex;
@@ -12,10 +57,12 @@
     
 }
 
-.titulo{
+.tituloh1{
     font-size: 72px;
     font-family: var(--fonte);
     font-weight: 700;
+    margin-left: 630px;
+    margin-top: 5px;
 }
 
 .container_corte{
@@ -44,18 +91,20 @@
     
 }
 
-.corte_titulo{
+.tituloh2{
     font-size: 42px;
     font-family: var(--fonte);
     font-weight: 700;
     margin-bottom: 40px;
 }
 
-.corte_subtitulo{
+.corte {margin-bottom: 40px;}
+
+.subtituloh3{
     font-size: 22px;
     font-family: var(--fonte);
     font-weight: 700;
-    margin-bottom: 40px;
+    
 }
 
 .lista{
@@ -69,22 +118,94 @@
     font-weight: 700;
 }
 
-.conteiner_texto1{
+
+.texto_explicativo{
     text-align: center;
-    margin: 50px 0 0 0;
+    margin-top: 50px;
+    
+    
+}
+
+.texto_nerole{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.alinhar_itens{
+    
+    grid-template-columns: 80%;
+    align-items: center;
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    
+    
+}
+
+.nerole_imagem{
+    width: 50%;
+    margin-left: 100px;
+    
+}
+
+
+.alinhar{
+    display: flex;
+    align-items: center;
+    
+}
+
+.organizar_lista2{
+    display: grid;
+    justify-content: center;
 
 }
 
-.texto{
+.lista2{
+    margin-left: 100px;
+}
+
+.container_venda{
+    display: grid;
+    justify-content: center;
+}
+
+.subtituloh4{
+    font-size: 18px;
     font-family: var(--fonte);
     font-weight: 700;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.texto_texto1{
-    margin-top: 40px;
-    font-size: 26px;
+.titulo_venda{
+    text-align: center;
+    margin-top: 50px;
 }
 
-.titulo_texto1{
-    font-size: 32px;
+.tituloh2r{
+    font-size: 18px;
+    font-family: var(--fonte);
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.subtituloh4r{
+    font-size: 12px;
+    font-family: var(--fonte);
+    font-weight: 700;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.REFERENCIAS{
+    display: flex;
+}
+
+.links{
+    margin-left: 20px;
 }
